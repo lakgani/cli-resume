@@ -12,12 +12,12 @@ const response = chalk.bold.blue;
 const resumeOptions = {
   type: "list",
   name: "resumeOptions",
-  message: "What do you want to know",
+  message: "What do you want to know about me",
   choices: [...Object.keys(data), "Exit"]
 };
 
 function showResume() {
-  console.log("Hello, this is my resume");
+  console.log("Hello, this is Ganesh Pendyala");
   handleResume();
 }
 

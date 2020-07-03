@@ -1,0 +1,30 @@
+{
+  "name": "ganesh-pendyala",
+  "version": "0.0.1",
+  "description": "my resume for the command line",
+  "main": "index.js",
+  "bin": {
+    "ganesh-pendyala": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lakgani/cli-resume.git"
+  },
+  "keywords": [
+    "resume",
+    "profile"
+  ],
+  "author": "Ganesh Pendyala",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lakgani/cli-resume/issues"
+  },
+  "homepage": "https://github.com/lakgani/cli-resume#readme",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "inquirer": "^7.3.0"
+  }
+}
